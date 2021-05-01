@@ -1,0 +1,7 @@
+if [ "$1" == "" ]
+then
+	echo "Il faut le nom de la commande à supprimer."
+	exit 1
+fi
+
+sudo rm /usr/bin/$1
