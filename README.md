@@ -15,10 +15,10 @@
 #### ⚠️ Disclaimer ⚠️
 
 - You can change `gedit` by your best text editor. If you haven't gedit editor, select another.
-- - Example with nano editor : `sudo nano /usr/bin/<your-cmd-name>`
+  - Example with nano editor : `sudo nano /usr/bin/<your-cmd-name>`
 
 - You must replace `<your-cmd-name>` by your command name.
-- - Example with create-cmd command : `sudo gedit /usr/bin/create-cmd
+  - Example with create-cmd command : `sudo gedit /usr/bin/create-cmd
 
 - You should only create your `create-cmd` command using this documentation. (See this : https://github.com/ibrahyma/friendly-cmd/tree/main/create-cmd)
-- - So, you can create your other commands with this command
+  - So, you can create your other commands with this command
