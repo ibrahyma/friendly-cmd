@@ -20,5 +20,5 @@
 - You must replace `<your-cmd-name>` by your command name.
 - - Example with create-cmd command : `sudo gedit /usr/bin/create-cmd
 
-- You should only create your `create-cmd` command using this documentation. (See this : https://github.com/ibrahyma/friendly-cmd/blob/main/create-cmd/create-cmd)
+- You should only create your `create-cmd` command using this documentation. (See this : https://github.com/ibrahyma/friendly-cmd/tree/main/create-cmd)
 - - So, you can create your other commands with this command
