@@ -1,0 +1,11 @@
+if [ "$1" == "" ]
+then
+	echo "You need the name of the new command."
+	exit 1
+fi
+
+sudo gedit /usr/bin/$1
+echo "Just apply this command : sudo chmod +x /usr/bin/"$1
+echo "Not necessary if the script has not been saved."
+echo ""
+echo "Enjoy ! :)"
