@@ -1,2 +1,2 @@
 # friendly-cmd
-Some cool commands to use however you want.
+Some cool Linux commands to use however you want.
