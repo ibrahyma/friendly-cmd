@@ -1,7 +1,7 @@
 # friendly-cmd
 ## Some cool Linux commands to use however you want.
 
-ℹ️ You can use provided commands with other name.
+ℹ️ You can use provided batch scripts with other name.
 
 ### How does this work ?
 
