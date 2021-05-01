@@ -1,0 +1,7 @@
+if [ "$1" == "" ]
+then
+	echo "You need the name of the command to update."
+	exit 1
+fi
+
+sudo gedit /usr/bin/$1
