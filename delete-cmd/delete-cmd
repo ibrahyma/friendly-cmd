@@ -1,0 +1,7 @@
+if [ "$1" == "" ]
+then
+	echo "You need the name of command to delete."
+	exit 1
+fi
+
+sudo rm /usr/bin/$1
