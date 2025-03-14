@@ -1,24 +1,23 @@
-# friendly-cmd
-## Some cool Linux commands to use however you want.
+# Quelques commandes Linux sympas à utiliser comme vous le souhaitez.
 
-ℹ️ You can use provided batch scripts with other name.
+ℹ️ Vous pouvez utiliser les scripts batch fournis sous un autre nom.
 
-### How does this work ?
+## Comment cela fonctionne-t-il ?
 
-1) Open your Linux terminal.
+1) Ouvrez votre terminal Linux.
  
-2) Tap this command `sudo gedit /usr/bin/<your-cmd-name>` and enter.
+2) Tapez cette commande `sudo gedit /usr/bin/<votre-nom-cmd>` et appuyez sur Entrée.
 
-3) When gedit is open, copy the script of the command that you want (for example : https://github.com/ibrahyma/friendly-cmd/blob/main/create-cmd/create-cmd)
+3) Lorsque gedit s'ouvre, copiez le script de la commande que vous souhaitez utiliser (par exemple : https://github.com/ibrahyma/friendly-cmd/blob/main/create-cmd/create-cmd)
 
+### ⚠️ Avertissement ⚠️
 
-#### ⚠️ Disclaimer ⚠️
+- Vous pouvez remplacer `gedit` par votre éditeur de texte préféré. Si vous ne disposez pas de gedit, choisissez-en un autre.
+  - Exemple avec l'éditeur nano : `sudo nano /usr/bin/<votre-nom-cmd>`
 
-- You can change `gedit` by your best text editor. If you haven't gedit editor, select another.
-  - Example with nano editor : `sudo nano /usr/bin/<your-cmd-name>`
+- Vous devez remplacer `<votre-nom-cmd>` par le nom de votre commande.
+  - Exemple avec la commande create-cmd : `sudo gedit /usr/bin/create-cmd`
 
-- You must replace `<your-cmd-name>` by your command name.
-  - Example with create-cmd command : `sudo gedit /usr/bin/create-cmd
+- Vous ne devez créer votre commande `create-cmd` qu'en suivant cette documentation. (Voir ici : https://github.com/ibrahyma/friendly-cmd/tree/main/create-cmd)
+  - Ainsi, vous pourrez créer vos autres commandes à l'aide de cette commande
 
-- You should only create your `create-cmd` command using this documentation. (See this : https://github.com/ibrahyma/friendly-cmd/tree/main/create-cmd)
-  - So, you can create your other commands with this command
